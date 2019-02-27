@@ -19,5 +19,12 @@ namespace WebAPI
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+
+        protected void Application_BeginRequest(object sender, EventArgs e)
+        {
+            this.Response.Headers["X-Content-Type-Options"] = "nosniff";
+            this.Response.Headers["content-encoding"] = "br";
+            this.Response.Headers["strict-transport-security"] = "max-age=15552000; includeSubDomains; preload";
+        }
     }
 }
