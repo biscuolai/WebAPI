@@ -75,3 +75,4 @@ C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\bin\Microsoft.AI.Window
 C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\bin\Microsoft.AI.Web.xml
 C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\obj\Release\WebAPI.dll
 C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\obj\Release\WebAPI.pdb
+C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\obj\Release\WebAPI.csprojResolveAssemblyReference.cache
