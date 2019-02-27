@@ -11,9 +11,9 @@ namespace WebAPI.Controllers
     public class TokenController : ApiController
     {
         // GET api/Token
-        public string Get()
+        public Guid Get()
         {
-            return "f025758f-5f7c-445d-90fb-52bc44fc36f9";
+            return new Guid("f025758f-5f7c-445d-90fb-52bc44fc36f9");
         }
 
         // GET api/Token
