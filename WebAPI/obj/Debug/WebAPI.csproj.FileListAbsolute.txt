@@ -68,7 +68,6 @@ C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\bin\Microsoft.AI.Depend
 C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\bin\Microsoft.AI.WindowsServer.xml
 C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\bin\Microsoft.AI.Web.xml
-C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
 C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\obj\Debug\WebAPI.dll
 C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\obj\Debug\WebAPI.pdb
 C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\bin\System.Web.Cors.dll
@@ -76,3 +75,4 @@ C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\bin\System.Web.Http.Cor
 C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\bin\System.Web.Http.Cors.xml
 C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\bin\Swashbuckle.Core.dll
 C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\bin\WebActivatorEx.dll
+C:\Projects\Sitecore Training\Project\Test\WebAPI\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
