@@ -4,13 +4,14 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Http.Formatting;
 using System.Web.Http;
-using WebAPI.Models;
+//using WebAPI.Models;
 
 namespace WebAPI.Controllers
 {
     public class TokenController : ApiController
     {
         // GET api/Token
+        [HttpGet]
         public Guid Get()
         {
             return new Guid("f025758f-5f7c-445d-90fb-52bc44fc36f9");

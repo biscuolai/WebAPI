@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Serialization;
+﻿using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Serialization;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Web.Http;
@@ -28,10 +29,13 @@ namespace WebAPI
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-             
+
             // Change default WebAPI to JSON formatter
             config.Formatters.XmlFormatter.SupportedMediaTypes.Clear();
-            config.Formatters.JsonFormatter.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
+            config.Formatters.JsonFormatter.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.None;
+
+            //var json = config.Formatters.JsonFormatter;
+            //json.SerializerSettings.Converters.Add(new StringEnumConverter());
 
             // Return JSON with camelCased property names on objects and all sub-objects 
             // (In our case there is only one property - id)
